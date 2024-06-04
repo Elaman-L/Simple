@@ -1,0 +1,39 @@
+
+.companies {
+    background-color: #B5B5BD;
+}
+
+.companies__container {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.companies__list {
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.companies__item {
+    width: 255px;
+    height: 135px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #C4C4C4;
+}
+
+.indentation-1 {
+    padding: 34px 29px 46px 29px;
+}
+
+.indentation-2 {
+    padding: 41px 34px 41px 35px;
+}
+
+.indentation-3 {
+    padding: 0px 15px;
+}
+
+.indentation-4 {
+    padding: 0px 23px;
+}

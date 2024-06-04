@@ -1,0 +1,80 @@
+.sketchbook__container {
+    padding-top: 114px;
+    padding-bottom: 114px;
+    background-image: url("../img/pic.png");
+    background-repeat: no-repeat;
+    background-position-x: 97%;
+    background-position-y: 101%;
+}
+
+.sketchbook__content {
+    flex-direction: column;
+    max-width: 358px;
+}
+
+.sketchbook__subtitle {
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 40px */
+    color: #666;
+}
+
+.sketchbook__descr {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    /* 30.6px */
+    color: #85859B;
+}
+
+.sketchbook__btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    max-width: 255px;
+    padding: 22px 50px;
+    border: 1px solid #7875FE;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #7875FE;
+    position: relative;
+    transition: background-color 0.3s, color 0.3s ease-in-out;
+}
+
+.sketchbook__btn:hover {
+    color: var(--white);
+    background-color: var(--hover-color);
+}
+
+.sketchbook__btn:focus {
+    outline: none;
+}
+
+.sketchbook__btn:focus-visible {
+    border: 1px solid #7875FE;
+    color: #7875FE;
+    background-color: var(--focus-color);
+}
+
+.sketchbook__btn:active {
+    color: var(--white);
+    background-color: var(--active-color);
+}
+
+@media (max-width: 1065px) {
+
+
+    .sketchbook__container {
+        background-size: 50%;
+    }
+}

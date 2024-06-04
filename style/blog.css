@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    /*margin: 0 auto;*/
+    min-width: 320px;
+    max-width: 3840px;
+    font-family: "Roboto", sans-serif;
+    background: var(--white);
+    overflow-x: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+/* Blog */
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1140px;
+    max-width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-reset {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+:root {
+    --hover-color: #7875FE;
+    --focus-color: #DAD9FB;
+    --active-color: #4946B4;
+    --white: #fff;
+}
